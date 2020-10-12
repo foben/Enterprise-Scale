@@ -1,0 +1,8 @@
+
+Secret                : System.Security.SecureString
+ServicePrincipalNames : {66a68551-6155-427b-a283-d9f0b1720849, http://es-github-actions}
+ApplicationId         : 66a68551-6155-427b-a283-d9f0b1720849
+ObjectType            : ServicePrincipal
+DisplayName           : es-github-actions
+Id                    : 81bd1109-f8f7-4488-ae88-d3931dc38132
+Type                  :
