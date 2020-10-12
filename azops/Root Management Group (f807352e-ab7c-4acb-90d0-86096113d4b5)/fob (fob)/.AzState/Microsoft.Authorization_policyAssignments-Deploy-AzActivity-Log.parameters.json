@@ -1,0 +1,37 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "b667f4f8-afcf-4f0c-ba4a-27ed8e349032",
+          "tenantId": "f807352e-ab7c-4acb-90d0-86096113d4b5",
+          "type": "SystemAssigned"
+        },
+        "Location": "westeurope",
+        "Name": "Deploy-AzActivity-Log",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/fob/providers/Microsoft.Authorization/policyAssignments/Deploy-AzActivity-Log",
+        "Properties": {
+          "Description": "Deploy-AzActivity-Log",
+          "DisplayName": "Deploy-AzActivity-Log",
+          "NotScopes": null,
+          "Parameters": {
+            "logAnalytics": {
+              "value": "/subscriptions/23c627f5-6cf8-42d9-a672-cc7c9ec27b0f/resourcegroups/fob-mgmt/providers/microsoft.operationalinsights/workspaces/fob-la-23c627f5-6cf8-42d9-a672-cc7c9ec27b0f"
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/fob/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-ActivityLog",
+          "Scope": "/providers/Microsoft.Management/managementGroups/fob"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/fob/providers/Microsoft.Authorization/policyAssignments/Deploy-AzActivity-Log",
+        "ResourceName": "Deploy-AzActivity-Log",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

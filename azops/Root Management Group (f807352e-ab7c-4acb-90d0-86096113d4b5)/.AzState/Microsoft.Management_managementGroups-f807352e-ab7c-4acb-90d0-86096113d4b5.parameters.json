@@ -1,0 +1,96 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/f807352e-ab7c-4acb-90d0-86096113d4b5",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "f807352e-ab7c-4acb-90d0-86096113d4b5",
+        "TenantId": "f807352e-ab7c-4acb-90d0-86096113d4b5",
+        "DisplayName": "Root Management Group",
+        "UpdatedTime": "0001-01-01T00:00:00Z",
+        "UpdatedBy": null,
+        "ParentId": null,
+        "ParentName": null,
+        "ParentDisplayName": null,
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/fob",
+            "Name": "fob",
+            "DisplayName": "fob",
+            "Children": [
+              {
+                "Type": "/providers/Microsoft.Management/managementGroups",
+                "Id": "/providers/Microsoft.Management/managementGroups/fob-landingzones",
+                "Name": "fob-landingzones",
+                "DisplayName": "fob-landingzones",
+                "Children": [
+                  {
+                    "Type": "/providers/Microsoft.Management/managementGroups",
+                    "Id": "/providers/Microsoft.Management/managementGroups/fob-online",
+                    "Name": "fob-online",
+                    "DisplayName": "fob-online",
+                    "Children": null
+                  }
+                ]
+              },
+              {
+                "Type": "/providers/Microsoft.Management/managementGroups",
+                "Id": "/providers/Microsoft.Management/managementGroups/fob-platform",
+                "Name": "fob-platform",
+                "DisplayName": "fob-platform",
+                "Children": [
+                  {
+                    "Type": "/providers/Microsoft.Management/managementGroups",
+                    "Id": "/providers/Microsoft.Management/managementGroups/fob-management",
+                    "Name": "fob-management",
+                    "DisplayName": "fob-management",
+                    "Children": [
+                      {
+                        "Type": "/subscriptions",
+                        "Id": "/subscriptions/23c627f5-6cf8-42d9-a672-cc7c9ec27b0f",
+                        "Name": "23c627f5-6cf8-42d9-a672-cc7c9ec27b0f",
+                        "DisplayName": "Felix Obenauer",
+                        "Children": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Type": "/providers/Microsoft.Management/managementGroups",
+                "Id": "/providers/Microsoft.Management/managementGroups/fob-decommissioned",
+                "Name": "fob-decommissioned",
+                "DisplayName": "fob-decommissioned",
+                "Children": null
+              },
+              {
+                "Type": "/providers/Microsoft.Management/managementGroups",
+                "Id": "/providers/Microsoft.Management/managementGroups/fob-sandboxes",
+                "Name": "fob-sandboxes",
+                "DisplayName": "fob-sandboxes",
+                "Children": null
+              }
+            ]
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/623b80e7-61b1-4f19-845e-9264fed13562",
+            "Name": "623b80e7-61b1-4f19-845e-9264fed13562",
+            "DisplayName": "Pay-As-You-Go",
+            "Children": null
+          }
+        ],
+        "properties": {
+          "policyDefinitions": [],
+          "policySetDefinitions": [],
+          "policyAssignments": [],
+          "roleDefinitions": [],
+          "roleAssignments": []
+        }
+      }
+    }
+  }
+}

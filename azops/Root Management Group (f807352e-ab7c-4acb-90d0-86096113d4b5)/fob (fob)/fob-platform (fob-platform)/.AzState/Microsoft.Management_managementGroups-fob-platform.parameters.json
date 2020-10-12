@@ -1,0 +1,44 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/fob-platform",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "fob-platform",
+        "TenantId": "f807352e-ab7c-4acb-90d0-86096113d4b5",
+        "DisplayName": "fob-platform",
+        "UpdatedTime": "0001-01-01T00:00:00Z",
+        "UpdatedBy": null,
+        "ParentId": "/providers/Microsoft.Management/managementGroups/fob",
+        "ParentName": "fob",
+        "ParentDisplayName": "fob",
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/fob-management",
+            "Name": "fob-management",
+            "DisplayName": "fob-management",
+            "Children": [
+              {
+                "Type": "/subscriptions",
+                "Id": "/subscriptions/23c627f5-6cf8-42d9-a672-cc7c9ec27b0f",
+                "Name": "23c627f5-6cf8-42d9-a672-cc7c9ec27b0f",
+                "DisplayName": "Felix Obenauer",
+                "Children": null
+              }
+            ]
+          }
+        ],
+        "properties": {
+          "policyDefinitions": [],
+          "policySetDefinitions": [],
+          "policyAssignments": [],
+          "roleDefinitions": [],
+          "roleAssignments": []
+        }
+      }
+    }
+  }
+}

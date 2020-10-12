@@ -1,0 +1,28 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/fob-decommissioned",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "fob-decommissioned",
+        "TenantId": "f807352e-ab7c-4acb-90d0-86096113d4b5",
+        "DisplayName": "fob-decommissioned",
+        "UpdatedTime": "0001-01-01T00:00:00Z",
+        "UpdatedBy": null,
+        "ParentId": "/providers/Microsoft.Management/managementGroups/fob",
+        "ParentName": "fob",
+        "ParentDisplayName": "fob",
+        "Children": null,
+        "properties": {
+          "policyDefinitions": [],
+          "policySetDefinitions": [],
+          "policyAssignments": [],
+          "roleDefinitions": [],
+          "roleAssignments": []
+        }
+      }
+    }
+  }
+}
