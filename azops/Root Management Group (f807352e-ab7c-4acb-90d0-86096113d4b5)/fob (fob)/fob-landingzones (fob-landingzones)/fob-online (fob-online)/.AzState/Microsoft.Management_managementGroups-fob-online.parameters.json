@@ -1,0 +1,28 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/fob-online",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "fob-online",
+        "TenantId": "f807352e-ab7c-4acb-90d0-86096113d4b5",
+        "DisplayName": "fob-online",
+        "UpdatedTime": "0001-01-01T00:00:00Z",
+        "UpdatedBy": null,
+        "ParentId": "/providers/Microsoft.Management/managementGroups/fob-landingzones",
+        "ParentName": "fob-landingzones",
+        "ParentDisplayName": "fob-landingzones",
+        "Children": null,
+        "properties": {
+          "policyDefinitions": [],
+          "policySetDefinitions": [],
+          "policyAssignments": [],
+          "roleDefinitions": [],
+          "roleAssignments": []
+        }
+      }
+    }
+  }
+}
